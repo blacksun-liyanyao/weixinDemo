@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>上传中心</title>
+    <link href="../Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Public/css/index.css" rel="stylesheet">
+    <script src="../Public/js/html5shiv.js"></script>
+    <script src="../Public/js/respond.min.js"></script>
+</head>
+<body>
+<div class="h1">微站上传中心</div>
+<form action="upload/" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="title">标题</label>
+        <input type="text" class="form-control" id="title" name="title" placeholder="标题">
+    </div>
+    <div class="form-group">
+        <label for="href">链接</label>
+        <input type="text" class="form-control" id="href" name="href" placeholder="链接">
+    </div>
+    <div class="form-group">
+        <label for="date">时间</label>
+        <input type="text" class="form-control" id="date" name="date" placeholder="时间">
+    </div>
+    <div class="form-group">
+        <label for="jianjie">简介</label>
+        <textarea class="form-control" id="jianjie" name="jianjie" placeholder="简介">
+         </textarea>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFile">上传图片</label>
+        <input type="file" id="exampleInputFile" name="filename">
+    </div>
+    <button type="submit" class="btn btn-primary">提交</button>
+</form>
+<script src="../Public/js/jquery-1.11.1.min.js"></script>
+<script src="../Public/js/bootstrap.min.js"></script>
+</body>
+</html>

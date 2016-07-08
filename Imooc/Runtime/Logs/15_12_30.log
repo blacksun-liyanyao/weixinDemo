@@ -1,0 +1,9 @@
+[ 2015-12-30T10:46:22+08:00 ] 127.0.0.1 /ThinkPHP/imooc.php/Product/size
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: sum D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\ProductAction.class.php 第 50 行.
+

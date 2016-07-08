@@ -1,0 +1,12 @@
+[ 2016-03-07T10:03:02+08:00 ] 0.0.0.0 /ThinkPHP/imooc.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Undefined index: nonce D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: timestamp D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: signature D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 10 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\phpmyStudy\WWW\ThinkPHP\Imooc\Lib\Action\IndexAction.class.php 第 98 行.
+
